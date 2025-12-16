@@ -23,6 +23,7 @@ export type Resolution = "1K" | "2K" | "4K";
 export const AD_STYLES: AdStyle[] = [
   { id: 'auto', label: '✨ Auto-Match Product', prompt: 'Analyze the product type thoroughly. Create a background setting that is the most natural, logical, and enhancing environment for this specific item. (e.g., if coffee -> cozy cafe table; if sneakers -> urban street or track). The theme must match the product function.' },
   { id: 'model', label: 'Fashion Model / On-Body', prompt: 'A professional fashion model wearing or holding the product. The model should have a look that fits the product aesthetic. Professional studio fashion photography, high detailed skin texture, realistic draping and fit.' },
+  { id: '3d-render', label: '3D Render / CGI', prompt: 'Hyper-realistic 3D product render, Octane render style. Floating composition with abstract geometric shapes (spheres, cubes) in the background. Smooth matte materials, soft global illumination, high-end commercial CGI aesthetic.' },
   { id: 'minimalist', label: 'Minimalist Studio', prompt: 'clean, minimal, studio lighting, soft shadows, solid pastel background' },
   { id: 'luxury', label: 'Luxury & Elegant', prompt: 'elegant, sophisticated, dark moody lighting, gold accents, premium texture background' },
   { id: 'nature', label: 'Nature & Organic', prompt: 'natural sunlight, outdoor setting, greenery, wood textures, fresh atmosphere' },

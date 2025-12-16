@@ -278,7 +278,7 @@ const App: React.FC = () => {
                     <MonitorPlay size={14} /> Resolution
                   </label>
                    <div className="flex gap-4">
-                    {(["1K", "4K"] as Resolution[]).map((res) => (
+                    {(["1K", "2K", "4K"] as Resolution[]).map((res) => (
                       <button
                         key={res}
                         onClick={() => setResolution(res)}
